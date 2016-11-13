@@ -1,0 +1,19 @@
+
+
+.heading {
+    color:#444444;
+    font-size: 30px;
+    font-family: 'Garamond', 'Georgia', serif;
+}
+
+.info {
+    color: #888888;
+    font-size: 18px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
