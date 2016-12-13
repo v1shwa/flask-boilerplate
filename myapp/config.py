@@ -40,5 +40,7 @@ def configure_app(app):
 
     formatter = logging.Formatter(app.config['LOGGING_FORMAT'])
     handler.setFormatter(formatter)
+    
+    app.logger.setLevel(app.config['LOGGING_FORMAT'])
     app.logger.addHandler(handler)
     
