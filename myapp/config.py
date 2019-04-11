@@ -9,7 +9,7 @@ class BaseConfig(object):
     TESTING = True
     SECRET_KEY = 'qb76d7681fqbe2fbaefqb41f862efbb7c91a92a492fb271t'
     LOGGING_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    LOGGING_LOCATION = '/app.log'
+    LOGGING_LOCATION = '/tmp/app.log'
     LOGGING_LEVEL = logging.DEBUG
 
 class DevelopmentConfig(BaseConfig):
